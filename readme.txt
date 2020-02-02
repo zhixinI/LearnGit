@@ -3,11 +3,7 @@
 Welcome to zyc53.com,It's my own website,and you'll see how itgoes from creation toexecution on git.
 我是在学习中试验，在试验中总结笔记，如果有问题，也欢迎看到此文件的你进行批评改正。
 I am in the study experiment,in the experiment summary notes,if there is a problem,also welcome to see this document you criticism to correct.
-
-
-
-
-
-
+希望你我都能享受这个过程，从中受益。
+I hope you and I can enjoy the process and benefit from it.
 
 
