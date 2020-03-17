@@ -316,10 +316,22 @@ $ git push originl master
 
 ```python
 #克隆一个本地库zhixinI用户名；LearnGit库名；
-$ git clone git@github.com:zhixinI/LearnGit.git
+$ git clone (远程库链接)
+
+#做修改；
+
+#从本地工作去添加到暂存区、提交到当前分支
+$ git add .#把当前都添加；
+$ git commit -m 'Right'
+#关联远程仓库origin；zhixinI是用户名
+$ git remote add origin git@github.com:zhixinI/LearnGit.git
+#获取远程库与本地同步（远程仓库不为空需要这一步）
+git pull --rebase origin master
+#推上去；
+$ git push -u origin master
 ```
 
-
+![image-20200317190631837](/Users/zyc/Library/Application Support/typora-user-images/image-20200317190631837.png)
 
 ### 知识参考连接：
 
