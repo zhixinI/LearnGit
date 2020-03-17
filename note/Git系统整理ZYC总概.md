@@ -28,13 +28,13 @@
 
 第2种：直接从AppStore安装Xcode，Xcode集成了Git，不过默认没有安装，你需要运行Xcode，选择菜单“Xcode”->“Preferences”，在弹出窗口中找到“Downloads”，选择“Command Line Tools”，点“Install”就可以完成安装了。
 
-![image-20200317142419452](/Users/zyc/Library/Application Support/typora-user-images/image-20200317142419452.png)
+![Xcode](/Users/zyc/Desktop/LearnGit/image/Xcode.png)
 
 Xcode是Apple官方IDE，功能非常强大，是开发Mac和iOS App的必选装备，而且是免费的,！
 
 ##### 4.2 git工作流程
 
-![img](https://www.runoob.com/wp-content/uploads/2015/02/git-process.png)
+![git工作流程](/Users/zyc/Desktop/LearnGit/image/git工作流程.png)
 
 - 克隆 Git 资源作为工作目录。
 - 在克隆的资源上添加或修改文件。
@@ -51,7 +51,7 @@ Xcode是Apple官方IDE，功能非常强大，是开发Mac和iOS App的必选装
 
 下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系：
 
-![image-20200317150417645](/Users/zyc/Library/Application Support/typora-user-images/image-20200317150417645.png)
+![工作区版本库暂存区关系](/Users/zyc/Desktop/LearnGit/image/工作区版本库暂存区关系.png)
 
 图中左侧为工作区，右侧为版本库。在版本库中标记为 "index" 的区域是暂存区（stage, index），标记为 "master" 的是 master 分支所代表的目录树。
 
@@ -73,7 +73,7 @@ Xcode是Apple官方IDE，功能非常强大，是开发Mac和iOS App的必选装
 
 ##### 4.4 创建版本库
 
-![image-20200317152915310](/Users/zyc/Library/Application Support/typora-user-images/image-20200317152915310.png)
+![创建版本库](/Users/zyc/Desktop/LearnGit/image/创建版本库.png)
 
 **内容：**
 
@@ -123,7 +123,7 @@ $ git commit -m "add 3 files."
 
 ##### 4.5 版本切换
 
-![image-20200317165640486](/Users/zyc/Library/Application Support/typora-user-images/image-20200317165640486.png)
+![版本切换](/Users/zyc/Desktop/LearnGit/image/版本切换.png)
 
 **内容：**
 
@@ -203,7 +203,7 @@ Git管理的是修改，当你用`git add`命令后，在工作区的第一次�
 
 场景1.
 
-![image-20200317171308757](/Users/zyc/Library/Application Support/typora-user-images/image-20200317171308757.png)
+![丢弃工作区修改](/Users/zyc/Desktop/LearnGit/image/丢弃工作区修改.png)
 
 当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令`git checkout -- file`。
 
@@ -266,19 +266,18 @@ github上免费托管的Git仓库，任何人都可以看到，但只有你自�
 
 ##### 5.2 github创建远程库
 
-进入[github官网](https://github.com/),如果么有账号，就注册一个；
+- 进入[github官网](https://github.com/),如果么有账号，就注册一个；
+- 进入首页，点击New，填写数据库名称、描述；
 
-进入首页，点击New
+![进入页面new](/Users/zyc/Desktop/LearnGit/image/进入页面new.png)
 
-![image-20200317144831067](/Users/zyc/Library/Application Support/typora-user-images/image-20200317144831067.png)
+- 我创建的是：LearnGit仓库；
+
+  ![建库](/Users/zyc/Desktop/LearnGit/image/建库.png)
 
 
 
-填写数据库名称、描述；
-
-<img src="/Users/zyc/Library/Application Support/typora-user-images/image-20200317144900728.png" alt="image-20200317144900728" style="zoom:67%;" />
-
-我创建的是：LearnGit仓库；先有本地库，再有远程库，如果库是空的；
+先有本地库，再有远程库，如果库是空的；
 
 `LearnGit`仓库，可以找它的链接，克隆到本地，也可以把本地`LearnGit`文件的与`LearnGit`仓库关联；在本地的`LearnGit`仓库下运行命令：
 
@@ -331,7 +330,9 @@ git pull --rebase origin master
 $ git push -u origin master
 ```
 
-![image-20200317190631837](/Users/zyc/Library/Application Support/typora-user-images/image-20200317190631837.png)
+![image-20200317190631837](/Users/zyc/Desktop/LearnGit/image/image-20200317190631837.png)
+
+
 
 ### 知识参考连接：
 
