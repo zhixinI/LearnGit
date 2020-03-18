@@ -34,7 +34,7 @@ Xcode是Apple官方IDE，功能非常强大，是开发Mac和iOS App的必选装
 
 ##### 4.2 git工作流程
 
-![git工作流程](/Users/zyc/Desktop/LearnGit/image/git工作流程.png)
+![git工作流程](../image/git工作流程.png)
 
 - 克隆 Git 资源作为工作目录。
 - 在克隆的资源上添加或修改文件。
@@ -51,7 +51,7 @@ Xcode是Apple官方IDE，功能非常强大，是开发Mac和iOS App的必选装
 
 下面这个图展示了工作区、版本库中的暂存区和版本库之间的关系：
 
-![工作区版本库暂存区关系](/Users/zyc/Desktop/LearnGit/image/工作区版本库暂存区关系.png)
+![工作区版本库暂存区关系](../image/工作区版本库暂存区关系.png)
 
 图中左侧为工作区，右侧为版本库。在版本库中标记为 "index" 的区域是暂存区（stage, index），标记为 "master" 的是 master 分支所代表的目录树。
 
@@ -73,7 +73,7 @@ Xcode是Apple官方IDE，功能非常强大，是开发Mac和iOS App的必选装
 
 ##### 4.4 创建版本库
 
-![创建版本库](/Users/zyc/Desktop/LearnGit/image/创建版本库.png)
+![创建版本库](../image/创建版本库.png)
 
 **内容：**
 
@@ -123,7 +123,7 @@ $ git commit -m "add 3 files."
 
 ##### 4.5 版本切换
 
-![版本切换](/Users/zyc/Desktop/LearnGit/image/版本切换.png)
+![版本切换](../image/版本切换.png)
 
 **内容：**
 
@@ -203,7 +203,7 @@ Git管理的是修改，当你用`git add`命令后，在工作区的第一次�
 
 场景1.
 
-![丢弃工作区修改](/Users/zyc/Desktop/LearnGit/image/丢弃工作区修改.png)
+![丢弃工作区修改](../image/丢弃工作区修改.png)
 
 当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令`git checkout -- file`。
 
@@ -269,11 +269,11 @@ github上免费托管的Git仓库，任何人都可以看到，但只有你自�
 - 进入[github官网](https://github.com/),如果么有账号，就注册一个；
 - 进入首页，点击New，填写数据库名称、描述；
 
-![进入页面new](/Users/zyc/Desktop/LearnGit/image/进入页面new.png)
+![进入页面new](../image/进入页面new.png)
 
 - 我创建的是：LearnGit仓库；
 
-  ![建库](/Users/zyc/Desktop/LearnGit/image/建库.png)
+  ![建库](../image/建库.png)
 
 
 
@@ -330,9 +330,7 @@ git pull --rebase origin master
 $ git push -u origin master
 ```
 
-![image-20200317190631837](/Users/zyc/Desktop/LearnGit/image/image-20200317190631837.png)
-
-
+![同步](../image/同步.png)
 
 ### 知识参考连接：
 
