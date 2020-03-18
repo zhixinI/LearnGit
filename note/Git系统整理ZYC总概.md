@@ -28,7 +28,7 @@
 
 第2种：直接从AppStore安装Xcode，Xcode集成了Git，不过默认没有安装，你需要运行Xcode，选择菜单“Xcode”->“Preferences”，在弹出窗口中找到“Downloads”，选择“Command Line Tools”，点“Install”就可以完成安装了。
 
-![Xcode](/Users/zyc/Desktop/LearnGit/image/Xcode.png)
+![Xcode](../image/Xcode.png)
 
 Xcode是Apple官方IDE，功能非常强大，是开发Mac和iOS App的必选装备，而且是免费的,！
 
